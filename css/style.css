@@ -1,0 +1,111 @@
+*{margin:0;padding:0;font-family:tahoma}
+.nav-menu{
+	
+	width:614.5px;
+	margin:auto;
+	background:#34495e;
+}
+.nav-menu :after{
+	content:"";
+	display:block;
+	clear:both;
+	
+}
+.nav-menu ul{
+	
+	list-style:none;
+}
+.nav-menu >ul> li{
+	float:left;
+	background:#34495e;
+	position: relative;
+	
+}
+.nav-menu ul li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	padding: 20px 20px;
+	display:block;
+}
+.nav-menu ul li:hover a{
+	background:#e74c3c;
+	/*border-bottom:5px solid #EA2027;
+	padding: 20px 20px 15px 20px;*/
+	color:#833471;
+	transition: all .50s ease;
+}
+
+.nav-menu ul li .active{
+	/*border-bottom:5px solid #EA2027;
+	padding-top:-5px;*/
+}
+.nav-menu ul li .active{
+	/*padding: 20px 20px 15px 20px;*/
+	
+}
+/*sub muno*/
+.nav-menu ul ul{
+	position: absolute;
+	background:#e74c3c;
+	top:100%;
+	left:0;
+	display: none;
+	/*z-index: 9999; eta porer ta jobi position:absolute; silder tahole eta use hobe*/
+}
+.nav-menu ul li:hover > ul{
+	display:block;
+
+}
+.nav-menu ul ul li{
+	position: relative;
+}
+.nav-menu ul ul li:hover a{
+
+	background: #01a3a4;
+}
+.nav-menu ul ul ul{
+	left:100%;
+	top:0;
+
+}
+.nav-menu ul ul ul li:hover a{
+	background: #10ac84;
+
+}
+.nav-menu ul ul ul ul{
+	left: -100%;
+	top:0;
+	z-index: 9999;
+}
+/***************222222222222222222222222**************************/
+.nav-menu2 {margin: auto;
+	width:650px;
+}
+.nav-menu2 ul{
+	list-style:none;
+	display:flex;	
+}
+.nav-menu2 ul li{
+	margin:5px;
+	
+}
+
+.nav-menu2 ul li a{
+		color:#192a56;
+		font-family: Open Sans;
+		padding:5px;
+		letter-spacing:1px;
+		font-weight:bold;
+		transition:all .50s ease;
+		text-decoration: none;
+}
+.nav-menu2 ul:hover a{ 
+	color:#8395a7/*#079992#079992#706fd3**/;
+	transition:all .50s ease;
+
+}
+.nav-menu2 ul a:hover{ 
+	color:#FC427B;
+				
+}
